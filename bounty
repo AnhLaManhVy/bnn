@@ -1,0 +1,60 @@
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "41a089db63e373908f60a2db"
+    getgenv().Setting = {
+        ["Team"] = "Pirate",
+        ["Method Click"] = {["Click Gun"] = false ,
+        ["Click Melee"] = true,
+        ["Click Sword"] = false,
+        ["LowHealth"] = 3000,
+        ["Delay Click"] = 2},
+        ["Race V4"] = {["Enable"] = true},
+        ["Webhook"] = {["Enabled"] = true,
+        ["Url Webhook"] = "https://discord.com/api/webhooks/1339845405977870387/DmBRjfMNkzU_POQW7Np9jbuIgqcyHYjQ9p4j5nSus4AqCvdGbwU00dTZP1eEGF4jHP_I"},
+        ["Misc"] = {["AutoBuyRandomandStoreFruit"] = false,
+        ["AutoBuySurprise"] = false},
+        ["SafeZone"] = {["Enable"] = true,
+        ["LowHealth"] = 3000,
+        ["MaxHealth"] = 8000,
+        ["Teleport Y"] = 3500},
+        ["Method Use Skill"] = {["Use Random"] = true,["Use Number"] = false},
+        ["Use random skill if player target low health"] = { --- suport only method use skill Number
+            ["Enabled"] = true,
+            ["Low Health"] = 3000,
+        },
+        ["Dodge Skill Player"] = true, --- Beta per 50% can dodge 
+        ["Weapons"] = {
+            ["Melee"] = {
+                ["Enable"] = true,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 2,["Number"] = 4},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 1.5,["Number"] = 3},
+                    ["C"] = {["Enable"] = true,["HoldTime"] = 2.5,["Number"] = 5},
+                },
+            },
+            ["Blox Fruit"] = {
+                ["Enable"] = false,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 4},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 6},
+                    ["C"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 9},
+                    ["V"] = {["Enable"] = false,["HoldTime"] = 0.1,["Number"] = 0},
+                    ["F"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 8},
+                },
+            },
+            ["Gun"] = {
+                ["Enable"] = false,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 1},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 7},
+                },
+            },
+            ["Sword"] = {
+                ["Enable"] = true,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 2.5,["Number"] = 1},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 1.5,["Number"] = 2},
+                },
+            },
+        }
+    }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-BountyEz.lua"))()
