@@ -26,9 +26,9 @@ getgenv().Key = "41a089db63e373908f60a2db"
             ["Melee"] = {
                 ["Enable"] = true,
                 ["Skills"] = {
-                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.7,["Number"] = 4},
-                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.7,["Number"] = 3},
-                    ["C"] = {["Enable"] = true,["HoldTime"] = 0.5,["Number"] = 5},
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.45,["Number"] = 4},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.45,["Number"] = 3},
+                    ["C"] = {["Enable"] = true,["HoldTime"] = 0.45,["Number"] = 5},
                 },
             },
             ["Blox Fruit"] = {
@@ -51,8 +51,8 @@ getgenv().Key = "41a089db63e373908f60a2db"
             ["Sword"] = {
                 ["Enable"] = true,
                 ["Skills"] = {
-                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.8,["Number"] = 1},
-                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.6,["Number"] = 2},
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 1},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 2},
                 },
             },
         }
