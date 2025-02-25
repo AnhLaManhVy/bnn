@@ -15,7 +15,7 @@ getgenv().Key = "41a089db63e373908f60a2db"
         ["SafeZone"] = {["Enable"] = true,
         ["LowHealth"] = 3000,
         ["MaxHealth"] = 8000,
-        ["Teleport Y"] = 10000},
+        ["Teleport Y"] = 3500},
         ["Method Use Skill"] = {["Use Random"] = true,["Use Number"] = false},
         ["Use random skill if player target low health"] = { --- suport only method use skill Number
             ["Enabled"] = true,
