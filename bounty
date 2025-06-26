@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "41a089db63e373908f60a2db"
+getgenv().Key = "sobq7eihx2rqwob5kxg4"
     getgenv().Setting = {
         ["Team"] = "Pirate",
         ["Method Click"] = {["Click Gun"] = true,
